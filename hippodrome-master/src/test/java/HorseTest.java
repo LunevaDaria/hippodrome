@@ -83,7 +83,7 @@ public class HorseTest {
     }
     @ParameterizedTest
     @CsvSource ({"0.5, 2.0, 3.0",
-                 "0.2, 5.0, 2.0",})
+                 "0.2, 5.0, 2.5",})
     void move(double random, double speed, double distance) {
         try (MockedStatic<Horse> horseMockedStatic = Mockito.mockStatic(Horse.class)) {
             horseMockedStatic.when(()-> Horse.getRandomDouble(0.2, 0.9)).thenReturn(random);
