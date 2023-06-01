@@ -2,9 +2,4 @@
 /out/
 .idea
 target
-<<<<<<< HEAD
 *.iml
-=======
-*.iml
-logs
->>>>>>> 626102c (Final project)
