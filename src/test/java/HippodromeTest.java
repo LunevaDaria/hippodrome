@@ -47,7 +47,7 @@ public class HippodromeTest {
                 new Horse("Пепел", 2.9),
                 new Horse("Черешня", 3),
                 new Horse("Белый", 2.4),
-                new Horse("Кит", 2.5),
+                new Horse("Буран", 2.5),
                 new Horse("Максим", 2.6),
                 new Horse("Петр", 2.7),
                 new Horse("Легион", 2.8),
